@@ -15,7 +15,7 @@ export default function HomeScreen() {
         <View style={styles.container}>
             <Button
                 title="Add New Win"
-                onPress={() => router.push("/add")}
+                onPress={() => router.push("/screens/add")}
             />
             <FlatList
                 data={wins}

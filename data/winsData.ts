@@ -12,7 +12,7 @@ export const addWin = (text: string) => {
 const newWin: Win = {
 id: Date.now().toString(),
     text,
-    date: new Date().toLocalDateString(),
+    date: new Date().toLocaleDateString(),
     };
 
     wins.push(newWin);
