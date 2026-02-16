@@ -1,7 +1,7 @@
 import { View, Button, FlatList, StyleSheet, Text } from "react-native";
 import { useRouter } from "expo-router";
 import { getWins } from "../../data/winsData";
-//import WinItem from "../../components/WinItem";
+import WinItem from "../../components/WinItem";
 import { useEffect, useState } from "react";
 
 export default function HomeScreen() {
