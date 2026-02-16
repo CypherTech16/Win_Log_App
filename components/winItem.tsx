@@ -14,7 +14,7 @@ export default function WinItem({ win, onPress}: any) {
 const styles = StyleSheet.create({
   item: {
     padding: 15,
-    backgroundColor: "#00ffff",
+    backgroundColor: "#e0f7fa",
     marginVertical: 5,
     borderRadius: 8,
   },
@@ -32,6 +32,7 @@ const styles = StyleSheet.create({
   arrow: {
     marginLeft: "auto",
     fontSize: 18,
-    color: "#000000",
+    color: "#555",
   },
 });
+
