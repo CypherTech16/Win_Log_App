@@ -1,6 +1,6 @@
 import { View, TextInput, Button, StyleSheet, Alert } from "react-native";
 import { useState } from "react";
-import { addWin } from "../../data/winsStore";
+import { addWin } from "../../data/winsData";
 import { useRouter } from "expo-router";
 
 export default function AddScreen() {
